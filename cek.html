@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:site_name" itemprop="name" content="MemberPAZ.com Indonesia" />
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>MemberPAZ.com Indonesia | MemberPAZ</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+	<link type="text/css" rel="stylesheet" href="https://memberpaz.com/css/plugins/datepicker/datepicker.css" />
+	<link type="text/css" rel="stylesheet" href="https://memberpaz.com/css/plugins/toast/jquery.toast.min.css" />
+	<link type="text/css" rel="stylesheet" href="https://memberpaz.com/css/plugins/slider/nouislider.min.css" />
+	<link type="text/css" rel="stylesheet"
+		href="https://memberpaz.com/css/plugins/autocompleter/jquery.autocompleter.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles-2109.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<style>
+		body {
+			font-family: 'Mulish', Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+		}
+
+		.navigation-custom .burger-icon {
+			background-image: url("images/menu-bar.png") !important;
+		}
+
+		.navigation-custom .burger-icon span:after {
+			display: none !important;
+		}
+
+		.navigation-custom .burger-icon span:before {
+			display: none !important;
+		}
+
+		.navigation-custom .burger-icon span {
+			display: none !important;
+		}
+
+		.navigation-custom {}
+
+		.navigation-custom .logo {
+			width: 60px;
+			height: 30px;
+			margin-left: 10px
+		}
+
+		.navigation-custom .cart-nav {
+			background: #F47D31 !important;
+		}
+
+		.navigation-custom .nav-login {
+			margin-right: 2.5em;
+		}
+
+		.navigation-custom .nav-register {
+			margin-right: 3em
+		}
+
+		.box-size::after {
+			background: #44904B !important;
+			width: 320px !important;
+			height: 330px;
+		}
+
+		.founder-logo {
+			top: 11em !important;
+			right: 25px !important;
+		}
+
+		.founder-logo img {
+			width: 240px;
+			height: 350px;
+		}
+
+		.header-wrapper .title-header {
+			font-weight: 900;
+			font-size: 52px;
+			line-height: 1.2;
+			color: #44904B;
+		}
+
+		.header-wrapper .description-header {
+			max-width: 450px;
+			line-height: 2;
+		}
+
+		.header-wrapper .submit .input-group-search {
+			max-width: 470px !important;
+		}
+
+		.header-wrapper .submit {
+			max-width: 470px !important;
+			margin-top: 2.5em;
+		}
+
+		.header-wrapper .submit .input-group-search input {
+			box-shadow: 0 0 0 rgba(0, 0, 0, .1) !important;
+			color: #AAAAAA;
+			font-size: 16px;
+			height: 75px;
+		}
+
+		.header-wrapper .submit .input-group-search button {
+			height: 65px;
+		}
+
+		.box-size.home::before {
+			min-height: 650px !important;
+			min-width: 90%;
+		}
+
+		.container-custom {
+			padding: 0 85px;
+		}
+
+		.subheader-wrapper {
+			position: relative;
+			margin-top: 6em;
+		}
+
+		.title-subheader {
+			font-weight: 800;
+			font-size: 52px;
+		}
+
+		.description-subheader {
+			color: #4E4E4E;
+			padding-left: 5px;
+			font-size: 26px;
+		}
+
+		.subfooter-size {
+			font-size: 14px;
+			padding: 15px;
+		}
+
+		.footer-wrapper {
+			padding: 4em 0;
+		}
+
+		.footer-size {
+			background: #F8F8F8 !important;
+		}
+
+		.description-footer {
+			line-height: 2;
+			color: #292929;
+			font-size: 14px;
+		}
+
+		.list-navigation-footer li a {
+			color: #292929;
+			font-size: 14px;
+			line-height: 2;
+		}
+
+		.text-title-disc-course {
+			color: #F47D31 !important;
+			font-size: 13px !important;
+		}
+
+		.text-description-disc-course {
+			font-size: 12px !important;
+			padding-bottom: 2em;
+			color: #AAAAAA;
+		}
+
+		.text-heading-price-course {
+			color: #F47D31 !important;
+			font-weight: bold !important;
+			font-size: 17px !important;
+			text-align: left !important;
+		}
+
+		.text-disc-price-course {
+			font-weight: normal !important;
+			text-align: left !important;
+		}
+
+		.text-real-price-course {
+			color: #F47D31 !important;
+			font-weight: 700 !important;
+			text-align: left !important;
+		}
+
+		.img-course-box {
+			margin-bottom: 15px !important;
+		}
+
+		.img-course-custom {
+			width: 120px;
+			height: 100%;
+		}
+
+		.time {
+			color: #4E4E4E;
+			font-weight: 600;
+			font-size: 12px;
+		}
+
+		.date {
+			font-weight: 600;
+			color: #4E4E4E;
+			font-size: 12px;
+		}
+
+		.date:before {
+			content: "\f133" !important;
+			font-weight: normal !important;
+		}
+
+		.time:before {
+			font-weight: normal !important;
+		}
+
+		.text-course-name {
+			font-style: normal;
+			font-weight: bold;
+			color: #292929;
+		}
+
+		.text-course-created {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			color: #AAAAAA;
+		}
+
+		.text-categories-course {
+			margin-block-start: 0 !important;
+			font-size: 12px !important;
+			padding-top: 5px;
+			color: #AAAAAA;
+		}
+
+		.text-title-product {
+			color: black;
+			font-weight: bold !important;
+		}
+
+		.text-heading-price-product {
+			color: #F47D31 !important;
+			font-weight: bold !important;
+		}
+
+		.text-disc-price-product {
+			font-weight: normal !important;
+		}
+
+		.text-real-price-product {
+			color: #F47D31 !important;
+			font-weight: 700 !important;
+		}
+
+		.text-title-blog {
+			font-weight: bold;
+			font-size: 32px;
+			color: #292929;
+		}
+
+		.text-description-blog {
+			font-weight: normal;
+			font-size: 14px !important;
+			color: #4E4E4E;
+			margin-block-start: 0;
+			margin-top: 5px !important;
+			display: -webkit-box;
+			line-clamp: 2;
+			box-orient: vertical;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			word-break: break-word;
+		}
+
+		.text-author-blog {
+			font-weight: 600;
+		}
+
+		.group-description-blog {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+		}
+
+		.input-free-ebook {
+			box-shadow: 0 0 0 rgba(0, 0, 0, .1) !important;
+			color: #AAAAAA;
+			font-size: 16px;
+			height: 70px;
+		}
+
+		.button-free-ebook {
+			height: 60px;
+		}
+
+		.text-date-blog {
+			font-size: 12px !important;
+		}
+
+		.img-dotes-header {
+			width: 100px !important;
+			height: 100px !important;
+			top: 270px;
+			right: 280px;
+			position: absolute;
+		}
+
+		@media(max-width:1240px) {
+			.header-wrapper .title-header {
+				max-width: 70% !important;
+				font-size: 46px !important;
+			}
+		}
+
+		@media(max-width:992px) {
+			.header-wrapper .title-header {
+				max-width: 60% !important;
+				font-size: 32px !important;
+			}
+
+			.header-wrapper .description-header {
+				max-width: 60% !important;
+				font-size: 14px !important;
+			}
+
+			.header-wrapper .submit {
+				max-width: 60% !important;
+			}
+
+			.box-size::after {
+				width: 280px !important;
+				height: 280px !important;
+			}
+
+			.navigation-custom .nav-login {
+				margin-right: 25px;
+			}
+
+			.navigation-custom .nav-register {
+				margin-right: 15px;
+			}
+
+			.founder-logo img {
+				width: 200px;
+				height: 300px;
+			}
+
+			.img-dotes-header {
+				width: 80px !important;
+				height: 80px !important;
+				top: 240px;
+				right: 235px;
+			}
+
+			.box-size.home::before {
+				min-width: 85%;
+			}
+
+			.title-subheader {
+				font-size: 42px;
+			}
+		}
+
+		@media(max-width:768px) {
+			.cvr-size::before {
+				width: 100%;
+			}
+
+			.founder-logo {
+				position: absolute !important;
+			}
+
+			.founder-logo img {
+				position: absolute !important;
+				top: 0;
+				right: 0;
+				width: 160px;
+				height: 220px;
+			}
+
+			.box-size::after {
+				width: 30% !important;
+				height: 240px !important;
+				min-width: 230px !important;
+			}
+
+			.header-wrapper .cover-box {
+				margin-top: 3rem;
+			}
+
+			.container-custom {
+				padding: 0 15px;
+			}
+
+			.navigation-custom {
+				padding: 0 15px;
+			}
+
+			.header-wrapper .title-header {
+				max-width: 55% !important;
+				text-align: left !important;
+			}
+
+			.img-dotes-header {
+				width: 50px !important;
+				height: 50px !important;
+				top: 210px;
+				right: 205px;
+			}
+
+			.box-size.home::before {
+				min-height: 500px !important;
+			}
+
+			.form-search-header-group {
+				position: absolute;
+				width: 96% !important;
+				top: 24em;
+			}
+
+			.header-wrapper .submit {
+				max-width: 100% !important;
+			}
+
+			.header-wrapper .submit .input-group-search {
+				max-width: 100% !important;
+			}
+
+			.founder-logo {
+				right: 15px !important;
+			}
+
+			.subheader-wrapper {
+				margin-top: 15em !important;
+			}
+
+			.box-size.home::before {
+				min-height: 460px !important;
+			}
+
+			.title-subheader {
+				font-size: 32px;
+			}
+
+			.img-course-box {
+				margin-bottom: 0 !important;
+			}
+
+			.heading-free-ebook {
+				font-size: 28px !important;
+			}
+
+			.navigation-custom .nav-login {
+				margin-right: 15px !important;
+			}
+		}
+
+		@media(max-width:566px) {
+			.box-size::after {
+				min-width: 200px !important;
+			}
+
+			.header-wrapper .title-header {
+				max-width: 50% !important;
+				font-size: 22px !important;
+			}
+
+			.header-wrapper .description-header {
+				max-width: 50% !important;
+				font-size: 14px !important;
+			}
+
+			.form-search-header-group {
+				width: 94% !important;
+				top: 27em;
+			}
+
+			.box-size.home::before {
+				min-height: 400px !important;
+			}
+
+			.subheader-wrapper {
+				margin-top: 10em !important;
+			}
+
+			.img-dotes-header {
+				right: 180px;
+			}
+
+			.header-group {
+				min-height: 320px;
+			}
+
+			.title-subheader {
+				font-size: 28px;
+			}
+
+			.subheader-wrapper {
+				margin-top: 7em !important;
+			}
+		}
+
+		@media(max-width:400px) {
+			.box-size::after {
+				min-width: 150px !important;
+			}
+
+			.navigation-custom .nav-login {
+				font-size: 12px !important;
+			}
+
+			.navigation-custom .nav-register {
+				font-size: 12px !important;
+			}
+
+			.header-wrapper .title-header {
+				word-break: break-word;
+				max-width: 43% !important;
+				font-size: 18px !important;
+			}
+
+			.header-wrapper .description-header {
+				max-width: 43% !important;
+				font-size: 12px !important;
+			}
+
+			.box-size::after {
+				min-width: 180px !important;
+			}
+
+			.founder-logo img {
+				width: 130px;
+				height: 180px;
+			}
+
+			.img-dotes-header {
+				right: 150px;
+			}
+
+			.header-wrapper .submit .input-group-search input {
+				font-size: 12px;
+			}
+
+			.title-subheader {
+				font-size: 22px;
+			}
+
+			.text-course-name {
+				font-size: 16px !important;
+			}
+
+			.text-course-created {
+				font-size: 12px !important;
+			}
+
+			.text-categories-course {
+				font-size: 10px !important;
+			}
+
+			.date {
+				font-size: 10px !important;
+			}
+
+			.time {
+				font-size: 10px !important;
+			}
+
+			.text-title-disc-course {
+				font-size: 12px !important;
+			}
+
+			.text-description-disc-course {
+				font-size: 10px !important;
+			}
+
+			.text-heading-price-course {
+				font-size: 15px !important;
+			}
+
+			.text-disc-price-course {
+				font-size: 13px !important;
+			}
+
+			.text-real-price-course {
+				font-size: 15px !important;
+			}
+
+			.text-title-product {
+				font-size: 16px !important;
+			}
+
+			.text-heading-price-product {
+				font-size: 15px !important;
+			}
+
+			.text-disc-price-product {
+				font-size: 13px !important;
+			}
+
+			.text-real-price-product {
+				font-size: 15px !important;
+			}
+
+			.heading-free-ebook {
+				font-size: 18px !important;
+			}
+
+			.input-free-ebook {
+				font-size: 12px !important;
+			}
+
+			.text-title-blog {
+				font-size: 16px !important;
+			}
+
+			.text-description-blog {
+				font-size: 12px !important;
+			}
+
+			.text-date-blog {
+				font-size: 10px !important;
+			}
+		}
+
+		@media(max-width:320px) {
+			.box-size.home::before {
+				min-height: 47em !important;
+			}
+
+			.header-wrapper {
+				margin-top: 25em;
+			}
+
+			.form-search-header-group {
+				width: 91% !important;
+				top: 42em !important;
+			}
+
+			.header-wrapper .title-header {
+				max-width: unset !important;
+			}
+
+			.header-wrapper .description-header {
+				max-width: unset !important;
+			}
+
+			.course-group-box {
+				flex-direction: column;
+			}
+
+			.img-course-box {
+				margin-bottom: 15px !important;
+			}
+
+			.box-size.home::before {
+				min-width: 100% !important;
+			}
+		}
+
+		.p-relative {
+			position: relative;
+		}
+
+		.flex-wrap {
+			flex-wrap: wrap;
+		}
+
+		.description-footer {
+			margin-right: 15px;
+			font-size: 14px !important;
+		}
+
+		.footer-wrapper img {
+			margin-right: 15px;
+		}
+
+		.footer-logo-box {
+			width: 100%;
+		}
+
+		.description-footer {
+			width: 100%;
+		}
+
+		.footer-navigation {
+			width: 100%;
+		}
+
+		.footer-social-media {
+			width: auto;
+		}
+
+		.img-dotes-subheader {
+			position: absolute;
+			right: 25px;
+			width: 100px;
+			top: 145px;
+			height: 100px;
+		}
+
+		@media(max-width:768px) {
+			.img-dotes-subheader {
+				width: 80px;
+				height: 80px;
+				top: 120px;
+				right: 5px;
+			}
+		}
+
+		@media(max-width:566px) {
+			.img-dotes-subheader {
+				width: 50px;
+				height: 50px;
+				top: 90px;
+				right: 5px;
+			}
+		}
+
+		.course-wrapper {
+			position: relative;
+		}
+
+		.course-wrapper .tab::after {
+			content: "";
+			position: absolute;
+			width: 85%;
+			top: 5em;
+			height: 100%;
+			right: 0;
+			background-color: #f8f8f8;
+		}
+
+		.course-item-box {
+			z-index: 99999;
+		}
+
+		.bg-white {
+			background: white !important;
+		}
+
+		.course-wrapper .tab {
+			padding: 0 85px;
+		}
+
+		.course-wrapper .view-more-course {
+			padding: 0 85px;
+		}
+
+		.course-wrapper .heading-new-course {
+			padding: 0 85px;
+		}
+
+		.course-wrapper .tab-header-course {
+			padding: 0 85px;
+		}
+
+		@media(max-width:768px) {
+			.course-wrapper .tab {
+				padding: 0 15px;
+			}
+
+			.course-wrapper .view-more-course {
+				padding: 0 15px;
+			}
+
+			.course-wrapper .heading-new-course {
+				padding: 0 15px;
+			}
+
+			.course-wrapper .tab-header-course {
+				padding: 0 15px;
+			}
+		}
+
+		.img-dotes-course {
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			top: 50%;
+		}
+
+		.img-dotes-product {
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			bottom: 0;
+		}
+
+		.img-dotes-ebook {
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			right: 0;
+		}
+
+		.img-dotes-blog {
+			width: 100px;
+			position: absolute;
+			height: 100px;
+			bottom: 0;
+			right: 85px;
+		}
+
+		.img-dotes-trooper {
+			width: 50px;
+			height: 100px;
+			position: absolute;
+			right: 0;
+			top: -40px;
+		}
+
+		@media(max-width:768px) {
+
+			.img-dotes-course,
+			.img-dotes-product,
+			.img-dotes-ebook,
+			.img-dotes-blog,
+			.img-dotes-trooper {
+				display: none !important;
+			}
+
+			.text-description-disc-course {
+				padding-bottom: 0 !important;
+			}
+
+			.description-subheader {
+				padding-left: 0 !important;
+			}
+
+			.course-wrapper .tab::after {
+				display: none !important;
+			}
+		}
+
+		.nav-account {
+			margin-right: 2em;
+			margin-top: 5px;
+		}
+
+		@media(max-width:320px) {
+			.subheader-wrapper {
+				margin-top: 0 !important;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box-size home">
+		<div class="dfx container-fluid jcsb navigation-custom">
+			<div class="dfxc fxg pt-5">
+				<div class="burger-icon psr-2 mr-4"><span></span></div>
+				<a class="logo psr-1" href="http://localhost/memberpazzz"><img class="logo" src="images/logo.png" /></a>
+			</div>
+			<div class="dfxc pt-5 mr-4">
+				<a class="psr-1 txt-white nav-login" href="http://localhost/memberpazzz/login">Login</a>
+				<a class="psr-1 txt-white nav-register" href="http://localhost/memberpazzz/daftar">Daftar</a>
+			</div>
+			<div class="dfxc ps-relative pl-4 pr-4 pt-5">
+				<a class="fas fa-shopping-cart cart bucket txt-white fs-5"
+					href="http://localhost/memberpazzz/keranjang"></a>
+				<div class="cart-nav"></div>
+			</div>
+		</div>
+		<div class="header-group">
+			<div class="founder-logo">
+				<img class="lazy" data-src="images/founder.png" />
+			</div>
+			<img class="img-dotes-header" src="images/dotes.png">
+			<section class="header-wrapper">
+				<div class="container-custom">
+					<div class="cover-box dfx jcsb">
+						<div class="psr-1 ft-roboto-slap title-header">PAZ AL KASAW <br>Membership Indonesia</div>
+					</div>
+					<div class="psr-1 xs-sz lh-2 fs-4 mt-5 description-header">Buruan gabung untuk mengikuti pelatihan
+						Pengobatan PAZ Al Kasaw
+						terbaru. Jadi dokter buat keluarga dirumah atau bermanfaat bagi umat.</div>
+					<div class="form-search-header-group">
+						<form class="submit xs-sz" action="http://localhost/memberpazzz/produk-kursus/cari">
+							<div class="bc-white dfxc psr-1 xs-sz bs-4 mt-8 input-group-search">
+								<input class="form-control cover fg" name="q" type="text" value=""
+									placeholder="Produk atau pelatihan..." />
+								<div class="bcover">
+									<button class="btn-c">Cari</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="subheader-wrapper">
+			<div class="container-custom">
+				<div class="bc-white dfx jcsb psr-1 bs-4 pt-2 pb-2 pl-4 pr-4 mt-12 flex-wrap">
+					<div class="fs-8 ft-roboto-slap pd-8">
+						<span class="title-subheader txt-success">5K+</span>
+						<span class="description-subheader d-block fs-3">Paztrooper <br>Se-Indonesia</span>
+					</div>
+					<div class="fs-8 ft-roboto-slap pd-8">
+						<span class="title-subheader txt-success">10K+</span>
+						<span class="description-subheader d-block fs-3">Syaraf Kejepit <br>Diatasi</span>
+					</div>
+					<div class="fs-8 ft-roboto-slap pd-8">
+						<span class="title-subheader txt-success">1K+</span>
+						<span class="description-subheader d-block fs-3">Orang Stroke <br>Progress Baik</span>
+					</div>
+				</div>
+				<img class="img-dotes-subheader" src="images/dotes.png">
+			</div>
+		</section>
+
+		<!-- add container -->
+		<section style="margin:0 0 8em 0;" class="course-wrapper">
+			<img class="img-dotes-course" src="images/dotes.png">
+			<h3 class="fs-6 ft-roboto-slap txt-success mt-16 heading-new-course">Kursus Terbaru</h3>
+			<div data-tabs="tab" class="tabs" style="z-index:9999;">
+				<div class="dfx mt-6 flex-wrap tab-header-course">
+					<div data-tab="all" class="pd-3 mr-4 mb-4 cr-pointer bc-ggray txt-success"><span
+							class="pl-4 pr-4">All</span></div>
+					<div data-tab="main" class="pd-3 mr-4 mb-4 cr-pointer"><span class="pl-4 pr-4">Online</span>
+					</div>
+					<div data-tab="main" class="pd-3 mb-4 cr-pointer"><span class="pl-4 pr-4">Offline</span></div>
+				</div>
+				<div class="dfx jcsb view-more-course">
+					<div></div>
+					<a class="fs-4 txt-success" href="http://localhost/memberpazzz/kursus">Lihat Semua</a>
+				</div>
+				<div data-tab="sub">
+					<div class="ps-relative course-item-box">
+						<a class="dfxs crs-respsv bs-4 pd-6 mt-4 mb-8 bg-white"
+							href="http://localhost/memberpazzz/kursus/seminar-gratis">
+							<div class="fxg dfx course-group-box">
+								<div class="img-course-box">
+									<img class="ccvr mr-5 lazy img-course-custom"
+										data-src="storage/app/public/course-photo/5fbccb5b05c60-1606208347-500s.jpg" />
+								</div>
+								<div class="fxg course-description-group">
+									<div class="fs-5 text-course-name">Seminar Gratis</div>
+									<div class="fs-4 txt-gray text-course-created mt-2">By Ustadz Haris
+										Moedjahid
+									</div>
+									<div class="fs-4 txt-gray mt-2 text-categories-course">Khusus Muslim &
+										Muslimah</div>
+									<div class="date mt-4">
+										24 November 2020 -
+										31 Desember 2020</div>
+									<div class="time">
+										08:00 - 13:00 WIB
+									</div>
+								</div>
+							</div>
+
+							<div class="dfx fxdc fxfe price ml-4 mt-4">
+
+								<div class="fxg dfx fxdc">
+									<span class="d-block fs-3 txt-warning text-heading-price-course">IDR</span>
+									<span class="d-block fs-6 txt-warning text-real-price-course">Rp
+										1</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="ps-relative course-item-box">
+						<a class="dfxs crs-respsv bs-4 pd-6 mt-4 mb-8 bg-white"
+							href="http://localhost/memberpazzz/kursus/upgrading-online-topik-jantung">
+							<div class="fxg dfx course-group-box">
+								<div class="img-course-box">
+									<img class="ccvr mr-5 lazy img-course-custom"
+										data-src="storage/app/public/course-photo/5f9ca025086e5-1604100133-500s.jpg" />
+								</div>
+								<div class="fxg course-description-group">
+									<div class="fs-5 text-course-name">Upgrading Online Topik Jantung</div>
+									<div class="fs-4 txt-gray text-course-created mt-2">By Ustadz Haris
+										Moedjahid
+									</div>
+									<div class="fs-4 txt-gray mt-2 text-categories-course">Khusus Muslim &
+										Muslimah</div>
+									<div class="date mt-4">
+										31 Oktober 2020 -
+										21 Desember 2029</div>
+									<div class="time">
+										08:00 - 13:00 WIB
+									</div>
+								</div>
+							</div>
+
+							<div class="dfx fxdc fxfe price ml-4 mt-4">
+
+								<div class="fxg dfx fxdc">
+									<span class="d-block fs-3 txt-warning text-heading-price-course">IDR</span>
+									<span class="d-block fs-6 txt-warning text-real-price-course">Rp
+										700,000</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div data-tab="sub">
+				</div>
+			</div>
+		</section>
+		<section class="p-relative">
+			<img class="img-dotes-product" src="images/dotes.png">
+			<div class="container-custom">
+				<h3 class="fs-6 ft-roboto-slap txt-success mt-16">Produk Terbaru</h3>
+				<div class="dfx jcsb mt-4">
+					<div></div>
+					<a class="fs-4 txt-success" href="http://localhost/memberpazzz/produk">Lihat Semua</a>
+				</div>
+				<div class="row mt-4">
+					<a class="col-lg-4 mb-8" href="http://localhost/memberpazzz/produk/madu-murni-iqro">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy"
+								data-src="storage/app/public/product-photo/5f59619ceee31-1599693212-500s.jpg" />
+							<div class="sz-80p bc-white pd-3 bs-4 mm-6">
+								<div class="fs-5 text-title-product">Madu Murni Iqro</div>
+								<div class="fs-4 txt-warning mt-6 text-heading-price-product">IDR</div>
+
+
+								<div class="txt-warning text-real-price-product fs-6">
+									250,000
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="col-lg-4 mb-8" href="http://localhost/memberpazzz/produk/lidi-aren-paz">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy"
+								data-src="storage/app/public/product-photo/5f59614aec9e1-1599693130-500s.jpg" />
+							<div class="sz-80p bc-white pd-3 bs-4 mm-6">
+								<div class="fs-5 text-title-product">Lidi Aren PAZ</div>
+								<div class="fs-4 txt-warning mt-6 text-heading-price-product">IDR</div>
+
+
+								<div class="txt-warning text-real-price-product fs-6">
+									100,000
+								</div>
+							</div>
+						</div>
+					</a>
+					<a class="col-lg-4 mb-8" href="http://localhost/memberpazzz/produk/kaos-paz-medical-hacker">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy"
+								data-src="storage/app/public/product-photo/5f75aec32b369-1601547971-500s.jpg" />
+							<div class="sz-80p bc-white pd-3 bs-4 mm-6">
+								<div class="fs-5 text-title-product">Kaos PAZ Medical Hacker</div>
+								<div class="fs-4 txt-warning mt-6 text-heading-price-product">IDR</div>
+
+
+								<div class="txt-warning text-real-price-product fs-6">
+									200,000
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="p-relative">
+
+			<div class="dfx jcc cvr-size mt-30">
+				<div style="display:flex;align-items:center;flex-direction:column;width:100%;padding:0 15px;">
+					<div class="fs-10 psr-1 ft-roboto-slap txt-center txt-success heading-free-ebook">Dapatkan E-Book
+						PAZ
+						<br>Secara Gratis
+					</div>
+					<div class="bc-white psr-1 dfxc psr-1 md-sz bs-4 mt-16" style="max-width:650px !important;">
+						<input class="form-control input-free-ebook cover fg" type="text" value=""
+							placeholder="Masukkan email..." />
+						<div class="bcover">
+							<button class="btn-c button-free-ebook">Ambil</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img class="img-dotes-ebook" src="images/dotes.png">
+		</section>
+		<section class="p-relative">
+			<div class="container-custom">
+				<h3 class="fs-6 ft-roboto-slap psr-2 txt-success mt-30">Informasi Terbaru</h3>
+				<div class="row mt-8">
+					<a class="col-lg-4 mb-8"
+						href="http://localhost/memberpazzz/blog/bagaimana-cara-mendaftar-pelatihan-paz-al-kasaw">
+						<div class="blog-box">
+							<div class="img lazy"
+								data-src="storage/app/public/product-photo/5f59619ceee31-1599693212-500s.jpg">
+							</div>
+							<div class="title">Bagaimana Cara Mendaftar Pelatihan PAZ Al Kasaw</div>
+						</div>
+					</a>
+					<a class="col-lg-4 mb-8"
+						href="http://localhost/memberpazzz/blog/paz-indonesia-pengobatan-akhir-jaman-al-kasaw">
+						<div class="blog-box">
+							<div class="img lazy"
+								data-src="storage/app/public/gallery/5f8f1a8bc30d3-1603213963-photo.jpg"></div>
+							<div class="title">PAZ Indonesia - Pengobatan Akhir Jaman Al Kasaw</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="p-relative">
+			<img class="img-dotes-blog" src="images/dotes.png">
+			<div class="container-custom">
+				<h3 class="fs-6 ft-roboto-slap txt-success mt-16">PAZStory Terbaru</h3>
+				<div class="row mt-8">
+					<div class="col-lg-6 mb-6">
+						<div class="dfxs ">
+							<div class="mr-5">
+								<div class="ccvr story"></div>
+							</div>
+							<div class="group-description-blog">
+								<div>
+									<a class="fs-5 text-title-blog"
+										href="http://localhost/memberpazzz/pazstory/bsjsjsksk/1400481235">Bsjsjsksk</a>
+									<div class="fs-4 word-break mt-3 text-description-blog">
+										Bsjsjsnnsnsnsmaman
+									</div>
+								</div>
+								<div>
+									<a class="d-block fs-5 txt-success mt-4 text-author-blog"
+										href="http://localhost/memberpazzz/paztrooper/fery-anggriawan/1600642460">Fery
+										Anggriawan</a>
+									<div class="fs-4 mt-1 text-date-blog">
+										<b>28 November 2020,</b>
+										14:26 WIB</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mb-6">
+						<div class="dfxs ">
+							<div class="mr-5">
+								<div class="ccvr story"></div>
+							</div>
+							<div class="group-description-blog">
+								<div>
+									<a class="fs-5 text-title-blog"
+										href="http://localhost/memberpazzz/pazstory/dengan-lompat-mual-hilang/1400481228">Dengan
+										lompat mual hilang</a>
+									<div class="fs-4 word-break mt-3 text-description-blog">
+										Hanya denagn lompat maka sudah mulai hilang mual yang ada di pasiem
+									</div>
+								</div>
+								<div>
+									<a class="d-block fs-5 txt-success mt-4 text-author-blog"
+										href="http://localhost/memberpazzz/paztrooper/fulan-bin-fulan/1600642450">Fulan
+										Bin Fulan</a>
+									<div class="fs-4 mt-1 text-date-blog">
+										<b>2 September 2020,</b>
+										03:42 WIB</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mb-6">
+						<div class="dfxs ">
+							<div class="mr-5">
+								<div class="ccvr story lazy"
+									data-src="storage/app/public/gallery/5f4fa7c12902f-1599055809-photo.jpg">
+								</div>
+							</div>
+							<div class="group-description-blog">
+								<div>
+									<a class="fs-5 text-title-blog"
+										href="http://localhost/memberpazzz/pazstory/setelah-3-kali-gerakan-pusing-hilang/1400481227">Setelah
+										3 Kali Gerakan Pusing Hilang</a>
+									<div class="fs-4 word-break mt-3 text-description-blog">
+										Hanya dengan 3 kali gerakan maka pusing sudah hilang, mual hilangdasd asdasda
+									</div>
+								</div>
+								<div>
+									<a class="d-block fs-5 txt-success mt-4 text-author-blog"
+										href="http://localhost/memberpazzz/paztrooper/fulan-bin-fulan/1600642450">Fulan
+										Bin Fulan</a>
+									<div class="fs-4 mt-1 text-date-blog">
+										<b>31 Agustus 2020,</b>
+										16:32 WIB</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="p-relative">
+			<img class="img-dotes-trooper" src="images/dotes.png">
+			<div class="container-custom">
+				<h3 class="fs-6 ft-roboto-slap txt-success mt-16">PAZTrooper</h3>
+				<div class="row mt-4">
+					<a class="col-lg-4" href="http://localhost/memberpazzz/paztrooper/fery-anggriawan/1600642460">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy"
+								data-src="storage/app/public/user-photo/5fa2958ae2d64-1604490634-500s.jpg" />
+							<div class="bc-white pd-3">
+								<div class="badge-box">
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="images/100-pasien.png" />
+									</div>
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="storage/app/public/badge-icon/5fb3da48440c0-1605622344.jpg" />
+									</div>
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="storage/app/public/badge-icon/5fb3da67b4431-1605622375.jpg" />
+									</div>
+								</div>
+								<div class="dfx fs-5 ft-roboto-slap">
+									<div class="mr-4">Fery Anggriawan</div>
+									<div class="badge-verified"></div>
+								</div>
+								<div class="fs-4 mt-2"><b>483</b> Pasien
+								</div>
+								<div class="rating-box">
+									<div class="rating-ico">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="rating-text">0.1</div>
+								</div>
+								<div class="ft-4">(1 Penilai)</div>
+							</div>
+						</div>
+					</a>
+					<a class="col-lg-4" href="http://localhost/memberpazzz/paztrooper/arman/1600642450">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy" data-src="images/no-user.png" />
+							<div class="bc-white pd-3">
+								<div class="badge-box">
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="images/100-pasien.png" />
+									</div>
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="storage/app/public/badge-icon/5fb3da71dde4e-1605622385.jpg" />
+									</div>
+								</div>
+								<div class="dfx fs-5 ft-roboto-slap">
+									<div class="mr-4">arman</div>
+								</div>
+								<div class="fs-4 mt-2"><b>240</b> Pasien
+								</div>
+								<div class="rating-box">
+									<div class="rating-ico">
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="rating-text">4.1</div>
+								</div>
+								<div class="ft-4">(0 Penilai)</div>
+							</div>
+						</div>
+					</a>
+					<a class="col-lg-4" href="http://localhost/memberpazzz/paztrooper/fulan-bin-fulan/1600642449">
+						<div class="dfxs fxdc">
+							<img class="pcvr lazy" data-src="images/no-user.png" />
+							<div class="bc-white pd-3">
+								<div class="badge-box">
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="images/100-pasien.png" />
+									</div>
+									<div class="badge-ico">
+										<img class="lazy"
+											data-src="storage/app/public/badge-icon/5fb3da71dde4e-1605622385.jpg" />
+									</div>
+								</div>
+								<div class="dfx fs-5 ft-roboto-slap">
+									<div class="mr-4">Fulan Bin Fulan</div>
+								</div>
+								<div class="fs-4 mt-2"><b>140</b> Pasien
+								</div>
+								<div class="rating-box">
+									<div class="rating-ico">
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star full"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<div class="rating-text">4.3</div>
+								</div>
+								<div class="ft-4">(2 Penilai)</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="ovh-layer">
+		<div class="ovh-home">
+			<div class="pd-3 fs-4 txt-white"><i class="burger-close fa fa-times"></i></div>
+			<div class="mt-8 pd-menu">
+				<a class="menu-nav selected" href="http://localhost/memberpazzz">Home</a>
+				<a class="menu-nav" href="http://localhost/memberpazzz/blog">Blog</a>
+				<a class="menu-nav mt-6" href="http://localhost/memberpazzz/kursus">Kursus</a>
+				<a class="menu-nav" href="http://localhost/memberpazzz/produk">Produk</a>
+				<a class="menu-nav mt-6" href="http://localhost/memberpazzz/paztrooper">PAZTrooper</a>
+				<a class="menu-nav" href="http://localhost/memberpazzz/pazstory">PAZStory</a>
+				<a class="menu-nav" href="#">GoPAZ</a>
+				<a class="menu-nav mt-6" href="http://localhost/memberpazzz/member">Member Area</a>
+				<div class="menu-nav separator"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-custom footer-size">
+		<div class="dfx ftr-respsv footer-wrapper">
+			<div class="footer-logo-box"><img class="bt-logo" src="images/logo-footer.png" />
+			</div>
+			<div class="fs-4 description-footer">PT. PAZ Generasi Unggul <br>Jl. Karangaram Desa Drana RT 4, RW 12 <br>
+				Kec. Ngawen, Klaten, Jawa Tengah 57466</div>
+			<div class="dfxc footer-navigation" style="align-items:flex-start !important;">
+				<ul class="list list-navigation-footer">
+					<li><a href="http://localhost/memberpazzz">Home</a></li>
+					<li><a href="http://localhost/memberpazzz/produk">Produk</a></li>
+					<li><a href="http://localhost/memberpazzz/kursus">Kursus</a></li>
+				</ul>
+				<ul class="list list-navigation-footer">
+					<li><a href="javascript:;">PAZStory</a></li>
+					<li><a href="javascript:;">Blog</a></li>
+					<li><a href="javascript:;">GoPAZ</a></li>
+				</ul>
+			</div>
+			<div class="footer-social-media">
+				<div class="ft-roboto-slap ws-nowrap fs-4 heading-social-media-footer">Sosial Media</div>
+				<div class="dfx jcsb mt-2 social-media-fotter">
+					<a href="#"><i class="fab fa-instagram fs-6"></i></a>
+					<a href="#"><i class="fab fa-facebook-f fs-5"></i></a>
+					<a href="#"><i class="far fa-envelope fs-6"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container bc-green subfooter-size txt-white txt-center">MemberPAZ © Hak Cipta Dilindungi</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
+	<script src="https://memberpaz.com/js/plugins/datatable/jquery.jsmartable.min.js"></script>
+	<script src="https://memberpaz.com/js/plugins/datepicker/datepicker.js"></script>
+	<script src="https://memberpaz.com/js/plugins/mask/jquery.mask.min.js"></script>
+	<script src="https://memberpaz.com/js/plugins/autocompleter/jquery.autocompleter.min.js"></script>
+	<script src="https://memberpaz.com/js/plugins/toast/jquery.toast.js"></script>
+	<script src="https://memberpaz.com/js/plugins/datepicker/jquery.home-simple-datepicker.js"></script>
+	<script src="https://memberpaz.com/js/plugins/slider/nouislider.min.js"></script>
+	<script src="https://memberpaz.com/js/core-home.js"></script>
+</body>
+
+</html>
